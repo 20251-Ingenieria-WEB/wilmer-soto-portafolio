@@ -1,8 +1,8 @@
-import Sidebar from "@/components/organisms/Sidebar";
+import Sidebar from "@/components/templates/Sidebar";
 
 export default function Home() {
   return (
-    <div className="flex h-screen relative">
+    <div className="relative flex h-screen">
       <Sidebar></Sidebar>
     </div>
   );
