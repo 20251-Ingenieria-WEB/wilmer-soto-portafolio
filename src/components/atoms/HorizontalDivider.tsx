@@ -1,5 +1,3 @@
 export default function HorizontalDivider() {
-  return (
-    <hr className="border-t border-gray-300 my-2 w-55 inline-flex mx-auto" />
-  );
+  return <hr className="my-2 inline-flex border-t border-gray-300" />;
 }
