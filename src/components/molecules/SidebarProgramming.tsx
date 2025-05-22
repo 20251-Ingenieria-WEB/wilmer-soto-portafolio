@@ -26,7 +26,7 @@ export default function SidebarProgramming() {
       <Progress value={85}></Progress>
       <LabelValue
         className="font-extralight text-neutral-700"
-        first="Javascript"
+        first="Javascript/Typescript"
         second="85%"
       ></LabelValue>
       <Progress value={85}></Progress>

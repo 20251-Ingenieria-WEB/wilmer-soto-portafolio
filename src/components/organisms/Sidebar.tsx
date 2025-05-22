@@ -3,6 +3,7 @@ import SidebarInfo from "@/components/molecules/SidebarInfo";
 import HorizontalDivider from "@/components/atoms/HorizontalDivider";
 import SidebarLanguages from "@/components/molecules/SidebarLanguages";
 import SidebarProgramming from "@/components/molecules/SidebarProgramming";
+import SidebarExtraSkills from "@/components/molecules/SidebarExtraSkills";
 
 export default function Sidebar() {
   return (
@@ -15,6 +16,7 @@ export default function Sidebar() {
       <HorizontalDivider />
       <SidebarProgramming />
       <HorizontalDivider />
+      <SidebarExtraSkills />
       <HorizontalDivider />
     </aside>
   );
