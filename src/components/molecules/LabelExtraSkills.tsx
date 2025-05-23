@@ -7,7 +7,7 @@ export default function LabelExtraSkills({
 }) {
   return (
     <div className="flex items-center gap-x-2">
-      <Layers></Layers>
+      <Layers className="text-yellow-500"></Layers>
       <p className="font-extralight text-neutral-700">{children}</p>
     </div>
   );
