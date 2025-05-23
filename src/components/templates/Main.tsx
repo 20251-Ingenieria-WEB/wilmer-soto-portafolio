@@ -1,6 +1,7 @@
 import HeroSection from "@/components/organisms/HeroSection";
 import KnowledgeSection from "@/components/organisms/KnowledgeSection";
 import EducationSection from "@/components/organisms/EducationSection";
+import PortfolioSection from "@/components/organisms/PortfolioSection";
 
 export default function Main() {
   return (
@@ -8,6 +9,7 @@ export default function Main() {
       <HeroSection />
       <KnowledgeSection />
       <EducationSection />
+      <PortfolioSection />
     </div>
   );
 }
