@@ -7,7 +7,7 @@ import SidebarExtraSkills from "@/components/organisms/SidebarExtraSkills";
 
 export default function Sidebar() {
   return (
-    <aside className="fixed top-0 left-0 flex h-screen w-80 flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5">
+    <aside className="flex w-80 flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5">
       <SidebarPhoto />
       <HorizontalDivider />
       <SidebarInfo />
