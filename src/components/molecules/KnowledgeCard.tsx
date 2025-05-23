@@ -13,7 +13,7 @@ interface KnowledgeCardsProps {
   Icon: React.ElementType;
 }
 
-export default function KnowledgeCards({
+export default function KnowledgeCard({
   title,
   description,
   Icon,

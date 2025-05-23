@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/molecules/SectionHeader";
-import KnowledgeCards from "@/components/molecules/KnowledgeCard";
+import KnowledgeCard from "@/components/molecules/KnowledgeCard";
 import {
   MonitorSmartphone,
   Server,
@@ -52,7 +52,7 @@ export default function KnowledgeSection() {
       />
       <div className="grid grid-cols-1 grid-rows-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {knowledgeData.map((card, index) => (
-          <KnowledgeCards
+          <KnowledgeCard
             key={index}
             title={card.title}
             description={card.description}
