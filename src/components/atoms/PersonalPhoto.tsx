@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function PersonalPhoto({ className }: { className?: string }) {
   return (
     <Image
-      src="/profile.jpg"
+      src="/profile.png"
       alt="Foto de perfil"
       width={400}
       height={400}
