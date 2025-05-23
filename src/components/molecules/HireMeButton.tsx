@@ -16,11 +16,11 @@ export default function HireMeButton() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button className="bg-yellow-500 text-black hover:bg-yellow-600">
-          Contratame! →
+          Mira mis datos de contacto! →
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuLabel>Informacion</DropdownMenuLabel>
+        <DropdownMenuLabel>Contacto</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
           <Link
@@ -29,7 +29,7 @@ export default function HireMeButton() {
             rel="noopener noreferrer"
             className="flex items-center gap-x-2"
           >
-            LinkedIn <FaLinkedin />
+            Linkedin <FaLinkedin />
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
