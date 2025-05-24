@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function HireMeButton() {
+export default function ContactDataButton() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

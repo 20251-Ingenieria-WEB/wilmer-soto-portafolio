@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/molecules/SectionHeader";
-import PortfolioCarousel from "@/components/molecules/PortfolioCarousel";
+import PortfolioCarousel from "@/components/organisms/PortfolioCarousel";
 
 export default function PortfolioSection() {
   return (

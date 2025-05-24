@@ -1,6 +1,6 @@
 import Header1 from "@/components/atoms/Header1";
 import Text from "@/components/atoms/Text";
-import HireMeButton from "@/components/molecules/HireMeButton";
+import ContactDataButton from "@/components/molecules/ContactDataButton";
 
 export default function TextIntroduction() {
   return (
@@ -18,7 +18,7 @@ export default function TextIntroduction() {
         herramientas como Git, GitHub Actions y Postman.
       </Text>
       <div>
-        <HireMeButton />
+        <ContactDataButton />
       </div>
     </div>
   );
