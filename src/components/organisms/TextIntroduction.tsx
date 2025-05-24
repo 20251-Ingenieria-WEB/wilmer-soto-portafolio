@@ -10,12 +10,12 @@ export default function TextIntroduction() {
         e <span className="text-yellow-500">ingeniero de sistemas</span>.
       </Header1>
       <Text>
-        Soy Wilmer Soto Vidal, estudiante de Ingeniería de Sistemas en la
-        Universidad de Antioquia con experiencia como Desarrollador Front-end,
-        creando interfaces modernas con Next.js y Tailwind CSS. Domino lenguajes
-        como Python, JavaScript/TypeScript, Java, HTML y CSS, y mis habilidades
-        se extienden al backend con Spring Boot, PostgreSQL, Docker y
-        herramientas como Git, GitHub Actions y Postman.
+        Soy Wilmer Soto Vidal, estudiante de Ingeniería de Sistemas (graduacion
+        a inicios de 2026!) en la Universidad de Antioquia con experiencia como
+        Desarrollador Front-end, creando interfaces modernas con Next.js y
+        Tailwind CSS. Domino lenguajes como Python, JavaScript/TypeScript, Java,
+        HTML y CSS, y mis habilidades se extienden al backend con Spring Boot,
+        PostgreSQL, Docker y herramientas como Git, GitHub Actions y Postman.
       </Text>
       <div>
         <ContactDataButton />

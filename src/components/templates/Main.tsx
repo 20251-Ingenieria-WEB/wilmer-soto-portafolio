@@ -2,6 +2,7 @@ import HeroSection from "@/components/organisms/HeroSection";
 import KnowledgeSection from "@/components/organisms/KnowledgeSection";
 import EducationSection from "@/components/organisms/EducationSection";
 import PortfolioSection from "@/components/organisms/PortfolioSection";
+import WhyHireMeSection from "@/components/organisms/WhyHireMeSection";
 
 export default function Main() {
   return (
@@ -10,6 +11,7 @@ export default function Main() {
       <KnowledgeSection />
       <EducationSection />
       <PortfolioSection />
+      <WhyHireMeSection />
     </div>
   );
 }
