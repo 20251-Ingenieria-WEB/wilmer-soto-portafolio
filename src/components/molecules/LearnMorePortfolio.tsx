@@ -10,12 +10,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 interface LearnMorePortfolioProps {
-  description: string;
+  longDescription: string;
   githubLink: string;
 }
 
 export default function LearnMorePortfolio({
-  description,
+  longDescription,
   githubLink,
 }: LearnMorePortfolioProps) {
   return (
@@ -25,10 +25,12 @@ export default function LearnMorePortfolio({
           Conoce mas.
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent className="w-full max-w-sm">
         <DropdownMenuLabel>Informacion extra</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>{description}</DropdownMenuItem>
+        {longDescription.split("\n").map((paragraph, index) => (
+          <DropdownMenuItem key={index}>{paragraph}</DropdownMenuItem>
+        ))}
         <DropdownMenuItem>
           <Link
             href={githubLink}

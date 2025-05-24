@@ -26,24 +26,25 @@ export default function PortfolioCard({
   githubLink,
 }: PortfolioCardProps) {
   return (
-    <Card className="min-w-80">
-      <CardHeader>
+    <Card className="max-h-screen">
+      <CardHeader className="flex flex-col items-center justify-center">
         <Image
           src={image}
           alt={imageAlt}
           width={400}
-          height={400}
-          objectFit="cover"
+          height={183}
           className="rounded-lg"
         ></Image>
         <CardTitle className="text-center text-lg font-semibold">
           {title}
         </CardTitle>
       </CardHeader>
-      <CardContent>{description}</CardContent>
-      <CardFooter>
+      <CardContent className="flex items-center justify-center text-center">
+        {description}
+      </CardContent>
+      <CardFooter className="flex justify-center">
         <LearnMorePortfolio
-          description={longDescription}
+          longDescription={longDescription}
           githubLink={githubLink}
         ></LearnMorePortfolio>
       </CardFooter>
