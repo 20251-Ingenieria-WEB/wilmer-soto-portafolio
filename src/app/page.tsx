@@ -4,7 +4,7 @@ import LinksSidebar from "@/components/molecules/LinksSidebar";
 
 export default function Home() {
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen flex-col sm:flex-row">
       <Sidebar />
       <Main />
       <LinksSidebar />
