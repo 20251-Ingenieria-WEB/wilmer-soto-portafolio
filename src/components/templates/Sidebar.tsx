@@ -11,11 +11,11 @@ import SidebarContent from "@/components/organisms/SidebarContent";
 export default function Sidebar() {
   return (
     <>
-      <aside className="hidden flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5 md:flex">
+      <aside className="hidden flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5 lg:flex">
         <SidebarContent />
       </aside>
 
-      <div className="sm:hidden">
+      <div className="lg:hidden">
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon">
