@@ -19,7 +19,7 @@ const LinksData = [
 
 export default function LinksSidebar() {
   return (
-    <div className="flex w-10 flex-col items-center gap-y-3 bg-white pt-4">
+    <div className="flex flex-row items-center justify-between gap-y-3 bg-white px-5 sm:flex-col sm:justify-start sm:pt-4">
       {LinksData.map((entry, index) => (
         <Link
           key={index}
