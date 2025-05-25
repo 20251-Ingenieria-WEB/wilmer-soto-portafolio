@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Header1 from "@/components/atoms/Header1";
 
 const LinksData = [
   {
