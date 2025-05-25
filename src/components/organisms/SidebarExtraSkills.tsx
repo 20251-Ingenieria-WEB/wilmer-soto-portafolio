@@ -13,7 +13,7 @@ const ExtraSkillsData = [
 export default function SidebarExtraSkills() {
   return (
     <div className="flex flex-col gap-y-2">
-      <Header1>Habilidades extras</Header1>
+      <Header1 className="text-base">Habilidades extras</Header1>
       {ExtraSkillsData.map((entry, index) => (
         <LabelExtraSkills key={index}>{entry.skill}</LabelExtraSkills>
       ))}

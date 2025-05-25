@@ -6,7 +6,7 @@ import WhyHireMeSection from "@/components/organisms/WhyHireMeSection";
 
 export default function Main() {
   return (
-    <div className="flex flex-1 flex-col gap-y-10 overflow-y-auto pr-12 pb-10 pl-7">
+    <div className="flex flex-1 flex-col gap-y-10 overflow-y-auto pr-13 pb-10 pl-11 sm:pr-12 sm:pl-7">
       <HeroSection />
       <KnowledgeSection />
       <EducationSection />

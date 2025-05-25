@@ -7,5 +7,9 @@ export default function Header1({
   children?: React.ReactNode;
   className?: string;
 }) {
-  return <h1 className={cn("text-lg font-semibold", className)}>{children}</h1>;
+  return (
+    <h1 className={cn("text-sm font-semibold sm:text-lg", className)}>
+      {children}
+    </h1>
+  );
 }

@@ -8,7 +8,7 @@ export default function WhyHireMeSection() {
         title="¿Por Qué Contratarme?"
         description="Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa."
       ></SectionHeader>
-      <div className="flex items-center justify-center align-middle">
+      <div className="flex items-center justify-center pr-5 pl-5 align-middle">
         <WhyHireMeCarousel />
       </div>
     </div>

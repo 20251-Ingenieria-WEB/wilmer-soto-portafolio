@@ -11,7 +11,7 @@ const LanguagesData = [
 export default function SidebarLanguages() {
   return (
     <div className="flex flex-col gap-y-2">
-      <Header1>Lenguajes</Header1>
+      <Header1 className="text-base">Lenguajes</Header1>
       {LanguagesData.map((entry, index) => (
         <React.Fragment key={index}>
           <LabelValue

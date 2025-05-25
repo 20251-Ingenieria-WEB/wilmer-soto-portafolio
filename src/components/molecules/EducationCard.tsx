@@ -15,9 +15,9 @@ export default function EducationCard({
   description,
 }: EducationCardProps) {
   return (
-    <div className="grid grid-cols-2 gap-x-8">
+    <div className="grid grid-cols-2 gap-x-8 break-words">
       <div className="flex flex-col gap-y-2 text-left">
-        <Header1>{institution}</Header1>
+        <Header1 className="text-sm">{institution}</Header1>
         <Text>{dateRange}</Text>
       </div>
 

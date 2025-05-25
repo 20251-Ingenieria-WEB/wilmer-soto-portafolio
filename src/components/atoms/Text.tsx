@@ -8,7 +8,12 @@ export default function Text({
   className?: string;
 }) {
   return (
-    <p className={cn("text-base font-extralight text-neutral-700", className)}>
+    <p
+      className={cn(
+        "text-sm font-extralight text-neutral-600 sm:text-base",
+        className,
+      )}
+    >
       {children}
     </p>
   );

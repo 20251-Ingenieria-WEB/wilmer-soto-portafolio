@@ -11,9 +11,9 @@ export default function SectionHeader({
   description,
 }: SectionHeaderProps) {
   return (
-    <div className="flex flex-col items-center justify-center gap-y-4">
+    <div className="flex flex-col items-center justify-center gap-y-4 text-center">
       <Header1 className="text-3xl">{title}</Header1>
-      <Text className="text-center">{description}</Text>
+      <Text>{description}</Text>
     </div>
   );
 }

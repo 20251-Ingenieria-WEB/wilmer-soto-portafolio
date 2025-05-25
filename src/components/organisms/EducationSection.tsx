@@ -27,7 +27,7 @@ export default function EducationSection() {
         title="Educacion"
         description="Mi trayectoria educativa ha sido clave para establecer una base sólida en el ámbito de la ingeniería, preparándome con las herramientas teóricas para enfrentar los desafíos del mundo real."
       ></SectionHeader>
-      <div className="flex flex-col gap-y-5 bg-white p-10">
+      <div className="flex flex-col gap-y-5 bg-white p-2 sm:p-8">
         {EducationData.map((entry, index) => (
           <React.Fragment key={index}>
             <EducationCard

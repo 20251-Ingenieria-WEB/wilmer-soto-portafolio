@@ -34,7 +34,7 @@ const ProgrammingLanguagesData = [
 export default function SidebarProgramming() {
   return (
     <div className="flex flex-col gap-y-2">
-      <Header1>Lenguajes de programacion</Header1>
+      <Header1 className="text-base">Lenguajes de programacion</Header1>
       {ProgrammingLanguagesData.map((entry, index) => (
         <React.Fragment key={index}>
           <LabelValue

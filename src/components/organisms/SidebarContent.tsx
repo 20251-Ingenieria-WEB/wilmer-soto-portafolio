@@ -3,7 +3,7 @@ import SidebarInfo from "@/components/organisms/SidebarInfo";
 import HorizontalDivider from "@/components/atoms/HorizontalDivider";
 import SidebarLanguages from "@/components/organisms/SidebarLanguages";
 import SidebarProgramming from "@/components/organisms/SidebarProgramming";
-import SidebarExtraSkills from "@/components/organisms/SidebarExtraSkills.tsx";
+import SidebarExtraSkills from "@/components/organisms/SidebarExtraSkills";
 
 export default function SidebarContent() {
   return (
