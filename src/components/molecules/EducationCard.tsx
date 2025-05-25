@@ -8,6 +8,8 @@ interface EducationCardProps {
   description: string;
 }
 
+// Card generica para la parte de educacion. Usa los atomos de Header1 y Text para definir las secciones de
+// institucion, fecha, titulo y descripcion de este.
 export default function EducationCard({
   institution,
   dateRange,

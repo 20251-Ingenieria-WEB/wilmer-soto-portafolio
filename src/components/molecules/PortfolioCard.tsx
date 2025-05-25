@@ -17,6 +17,7 @@ interface PortfolioCardProps {
   githubLink: string;
 }
 
+// Card generico (usando Shadcn) para los proyectos personales. Estas cartas son las que se usan en el Carousel.
 export default function PortfolioCard({
   image,
   imageAlt,

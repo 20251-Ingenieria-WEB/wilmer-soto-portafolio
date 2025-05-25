@@ -2,6 +2,7 @@ import Header1 from "@/components/atoms/Header1";
 import Text from "@/components/atoms/Text";
 import ContactDataButton from "@/components/molecules/ContactDataButton";
 
+// Texto utilizado para la introduccion (Hero section). Tambien incluye el boton de contacto.
 export default function TextIntroduction() {
   return (
     <div className="flex flex-col gap-y-4">

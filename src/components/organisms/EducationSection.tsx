@@ -20,6 +20,7 @@ const EducationData = [
   },
 ];
 
+//Seccion completa de Educacion. Utiliza el Header de Seccion y la card definida en moleculas.
 export default function EducationSection() {
   return (
     <div className="flex flex-col gap-y-4">

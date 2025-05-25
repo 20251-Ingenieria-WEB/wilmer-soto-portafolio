@@ -8,6 +8,7 @@ const LanguagesData = [
   { first: "Ingles", second: "90%", percentage: 90 },
 ];
 
+//Seccion de lenguajes del sidebar. Usa tambien el label definidos anteriormente.
 export default function SidebarLanguages() {
   return (
     <div className="flex flex-col gap-y-2">

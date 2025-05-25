@@ -72,6 +72,7 @@ const WhyHireMeCardsData = [
   },
 ];
 
+//Carrousel para la parte del porque me deberian contratar. Usa las cards genericas definidas para este carrousel.
 export default function WhyHireMeCarousel() {
   return (
     <Carousel className="w-full max-w-lg">

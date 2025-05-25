@@ -1,5 +1,7 @@
 import { Layers } from "lucide-react";
+import Text from "@/components/atoms/Text";
 
+// Label que se usa para la parte de habilidades extra en el sidebar. Usa el icono de Layers y el atomo Text
 export default function LabelExtraSkills({
   children,
 }: {
@@ -8,7 +10,7 @@ export default function LabelExtraSkills({
   return (
     <div className="flex items-center gap-x-2">
       <Layers className="text-yellow-500"></Layers>
-      <p className="font-extralight text-neutral-700">{children}</p>
+      <Text>{children}</Text>
     </div>
   );
 }

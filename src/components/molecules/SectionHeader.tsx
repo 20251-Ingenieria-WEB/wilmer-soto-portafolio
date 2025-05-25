@@ -6,6 +6,7 @@ interface SectionHeaderProps {
   description: string;
 }
 
+// Molecula que sirve para los titulos encima de cada seccion. Utiliza Header1 y Text.
 export default function SectionHeader({
   title,
   description,

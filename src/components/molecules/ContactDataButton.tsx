@@ -11,6 +11,16 @@ import { FaLinkedin } from "react-icons/fa";
 import { Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const ContactData = [
+  {
+    href: "https://www.linkedin.com/in/wilmer-soto-04346a367/",
+    title: "Linkedin",
+    Icon: FaLinkedin,
+  },
+  { href: "mailto:wsoto04@gmail.com", title: "Enviar email", Icon: Mail },
+];
+
+// Se usa DropdownMenu con un array para los datos de contacto. Esto para el boton de "Mira mis datos de contacto!"
 export default function ContactDataButton() {
   return (
     <DropdownMenu>
@@ -22,26 +32,18 @@ export default function ContactDataButton() {
       <DropdownMenuContent>
         <DropdownMenuLabel>Contacto</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          <Link
-            href="https://www.linkedin.com/in/wilmer-soto-04346a367/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-x-2"
-          >
-            Linkedin <FaLinkedin />
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link
-            href="mailto:wsoto04@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-x-2"
-          >
-            Enviar Email <Mail />
-          </Link>
-        </DropdownMenuItem>
+        {ContactData.map((entry, index) => (
+          <DropdownMenuItem key={index}>
+            <Link
+              href={entry.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-x-2"
+            >
+              {entry.title} <entry.Icon />
+            </Link>
+          </DropdownMenuItem>
+        ))}
       </DropdownMenuContent>
     </DropdownMenu>
   );

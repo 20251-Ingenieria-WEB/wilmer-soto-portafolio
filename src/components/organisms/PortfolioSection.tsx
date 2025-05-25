@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/molecules/SectionHeader";
 import PortfolioCarousel from "@/components/organisms/PortfolioCarousel";
 
+//Seccion completa de Proyectos. Utiliza el Header de Seccion y el carrousel.
 export default function PortfolioSection() {
   return (
     <div className="flex flex-col gap-y-4">

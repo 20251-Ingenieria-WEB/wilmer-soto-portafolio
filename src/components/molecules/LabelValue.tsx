@@ -6,6 +6,7 @@ interface LabelValueProps {
   className?: string;
 }
 
+// LabelValue se utiliza para las partes de la sidebar que tiene dos textos. Uno a la izquierda y otro a la derecha.
 export default function LabelValue({
   first,
   second,

@@ -6,6 +6,7 @@ const InfoData = [
   { first: "Email:", second: "wsoto04@gmail.com" },
 ];
 
+// Informacion personal del sidebar. Usa el label definido anteriormente.
 export default function SidebarInfo() {
   return (
     <div className="flex flex-col gap-y-1">

@@ -11,6 +11,7 @@ interface KnowledgeCardsProps {
   Icon: React.ElementType;
 }
 
+// Card generica (usando Shadcn) para la parte de Mis conocimientos. Recibe un icono, titulo y descripcion de este.
 export default function KnowledgeCard({
   title,
   description,

@@ -16,6 +16,7 @@ const LinksData = [
   },
 ];
 
+// Link del sidebar de la derecha. Se usa un array con el link y el icono a usar.
 export default function LinksSidebar() {
   return (
     <div className="flex flex-row items-center justify-between gap-y-3 bg-white px-5 sm:flex-col sm:justify-start sm:pt-4">

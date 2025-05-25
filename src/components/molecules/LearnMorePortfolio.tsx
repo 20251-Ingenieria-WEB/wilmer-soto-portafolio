@@ -14,6 +14,8 @@ interface LearnMorePortfolioProps {
   githubLink: string;
 }
 
+// DropdownMenu generico para la parte de "Conoce mas." de cada item de mis proyectos. Recibe el link de github
+// y la descripcion mas detallada.
 export default function LearnMorePortfolio({
   longDescription,
   githubLink,
@@ -28,6 +30,7 @@ export default function LearnMorePortfolio({
       <DropdownMenuContent className="w-full max-w-sm">
         <DropdownMenuLabel>Informacion extra</DropdownMenuLabel>
         <DropdownMenuSeparator />
+        {/* Se usa .split ya que el texto de descripcion se separa con \n. Se divide cada parrafo en un item del menu */}
         {longDescription.split("\n").map((paragraph, index) => (
           <DropdownMenuItem key={index}>{paragraph}</DropdownMenuItem>
         ))}

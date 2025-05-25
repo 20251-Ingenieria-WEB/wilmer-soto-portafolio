@@ -31,6 +31,7 @@ const ProgrammingLanguagesData = [
   },
 ];
 
+//Seccion del sidebar para los lenguajes de programacion. Utiliza el label definido anteriormente.
 export default function SidebarProgramming() {
   return (
     <div className="flex flex-col gap-y-2">

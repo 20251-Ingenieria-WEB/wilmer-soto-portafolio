@@ -10,6 +10,7 @@ const ExtraSkillsData = [
   { skill: "APIs REST, Postman" },
 ];
 
+// Parte de habilidades extras del sidebar. Se utiliza el label ya definido anteriormente.
 export default function SidebarExtraSkills() {
   return (
     <div className="flex flex-col gap-y-2">

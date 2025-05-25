@@ -43,6 +43,7 @@ const knowledgeData = [
   },
 ];
 
+//Seccion completa de Conocimientos. Utiliza el Header de Seccion y la card definida en moleculas.
 export default function KnowledgeSection() {
   return (
     <div className="flex flex-col gap-y-4 text-wrap">

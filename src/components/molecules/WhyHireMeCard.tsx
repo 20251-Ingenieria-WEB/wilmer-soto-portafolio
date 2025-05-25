@@ -10,6 +10,7 @@ interface WhyHireMeCardProps {
   Icon: React.ElementType;
 }
 
+// Card generica (usando Shadcn) para las parte del porque me deberian contratar. Se usan en el carrousel de esta seccion.
 export default function WhyHireMeCard({
   title,
   description,

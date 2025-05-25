@@ -1,6 +1,7 @@
 import SectionHeader from "@/components/molecules/SectionHeader";
 import WhyHireMeCarousel from "@/components/organisms/WhyHireMeCarousel";
 
+//Seccion completa de ¿Por Qué Contratarme?. Utiliza el Header de Seccion y el carrousel definido.
 export default function WhyHireMeSection() {
   return (
     <div className="flex flex-col gap-y-4">

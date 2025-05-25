@@ -40,6 +40,7 @@ const PortfolioData = [
   },
 ];
 
+// Carrousel (usando Shadcn) usado para los proyectos. Usa las card ya definidas.
 export default function PortfolioCarousel() {
   return (
     <Carousel className="w-full max-w-xl">
