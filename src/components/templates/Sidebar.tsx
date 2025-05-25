@@ -1,23 +1,33 @@
-import SidebarPhoto from "@/components/organisms/SidebarPhoto";
-import SidebarInfo from "@/components/organisms/SidebarInfo";
-import HorizontalDivider from "@/components/atoms/HorizontalDivider";
-import SidebarLanguages from "@/components/organisms/SidebarLanguages";
-import SidebarProgramming from "@/components/organisms/SidebarProgramming";
-import SidebarExtraSkills from "@/components/organisms/SidebarExtraSkills";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { MenuIcon } from "lucide-react";
+import SidebarContent from "@/components/organisms/SidebarContent";
 
 export default function Sidebar() {
   return (
-    <aside className="flex w-80 flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5">
-      <SidebarPhoto />
-      <HorizontalDivider />
-      <SidebarInfo />
-      <HorizontalDivider />
-      <SidebarLanguages />
-      <HorizontalDivider />
-      <SidebarProgramming />
-      <HorizontalDivider />
-      <SidebarExtraSkills />
-      <HorizontalDivider />
-    </aside>
+    <>
+      <aside className="hidden flex-col gap-y-4 overflow-y-auto bg-white px-5 py-5 md:flex">
+        <SidebarContent />
+      </aside>
+
+      <Sheet>
+        <SheetTrigger asChild>
+          <Button variant="ghost" size="icon">
+            <MenuIcon className="h-6 w-6" />
+          </Button>
+        </SheetTrigger>
+        <SheetContent side="left" className="overflow-y-auto px-5">
+          <SheetTitle className="flex items-center justify-center text-center">
+            Informacion
+          </SheetTitle>
+          <SidebarContent />
+        </SheetContent>
+      </Sheet>
+    </>
   );
 }

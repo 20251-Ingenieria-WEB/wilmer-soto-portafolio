@@ -45,7 +45,7 @@ const knowledgeData = [
 
 export default function KnowledgeSection() {
   return (
-    <div className="flex flex-col gap-y-4">
+    <div className="flex flex-col gap-y-4 text-wrap">
       <SectionHeader
         title="Mis conocimientos"
         description="Explora aquí un resumen de mis habilidades y las tecnologías clave que domino como desarrollador de software."

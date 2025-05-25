@@ -13,7 +13,7 @@ export default function SectionHeader({
   return (
     <div className="flex flex-col items-center justify-center gap-y-4">
       <Header1 className="text-3xl">{title}</Header1>
-      <Text className="w-150 text-center">{description}</Text>
+      <Text className="text-center">{description}</Text>
     </div>
   );
 }
