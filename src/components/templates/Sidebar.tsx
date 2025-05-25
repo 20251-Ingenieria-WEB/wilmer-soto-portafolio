@@ -15,19 +15,21 @@ export default function Sidebar() {
         <SidebarContent />
       </aside>
 
-      <Sheet>
-        <SheetTrigger asChild>
-          <Button variant="ghost" size="icon">
-            <MenuIcon className="h-6 w-6" />
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="left" className="overflow-y-auto px-5">
-          <SheetTitle className="flex items-center justify-center text-center">
-            Informacion
-          </SheetTitle>
-          <SidebarContent />
-        </SheetContent>
-      </Sheet>
+      <div className="sm:hidden">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="ghost" size="icon">
+              <MenuIcon className="h-6 w-6" />
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="left" className="overflow-y-auto px-5">
+            <SheetTitle className="flex items-center justify-center text-center">
+              Informacion
+            </SheetTitle>
+            <SidebarContent />
+          </SheetContent>
+        </Sheet>
+      </div>
     </>
   );
 }

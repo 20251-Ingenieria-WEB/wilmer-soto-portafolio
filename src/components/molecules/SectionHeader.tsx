@@ -12,8 +12,8 @@ export default function SectionHeader({
 }: SectionHeaderProps) {
   return (
     <div className="flex flex-col items-center justify-center gap-y-4 text-center">
-      <Header1 className="text-3xl">{title}</Header1>
-      <Text>{description}</Text>
+      <Header1 className="sm:text-3xl">{title}</Header1>
+      <Text className="sm:text-lg">{description}</Text>
     </div>
   );
 }
